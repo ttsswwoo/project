@@ -1,0 +1,28 @@
+.textarea {
+    width: 100%;
+}
+
+.content li {
+    margin-bottom: 3rem;
+}
+
+.content li ul {
+    list-style: none;
+}
+
+.content li ul li {
+    font-size: 15px;
+    text-indent: 15px;
+    margin-bottom: 0.5rem;
+}
+
+.content li ul li:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+}
